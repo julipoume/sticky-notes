@@ -31,7 +31,18 @@ export const useBoard = () => {
     });
   };
 
-  return { notes, addNote };
+  // Update a note's properties based on its id
+  const updateNote = (id: string, changes: Partial<Note>) => {
+    setNotes((prev) =>
+      prev.map((note) => (note.id === id ? { ...note, ...changes } : note))
+    );
+  };
+
+  const removeNote = (id: string) => {
+    setNotes((prev) => prev.filter((note) => note.id !== id));
+  };
+
+  return { notes, addNote, updateNote, removeNote };
 };
 
 

@@ -18,11 +18,14 @@
 }
 
 .note-content {
-  width: 180px;
-  height: 120px;
+  box-sizing: border-box;
+  display: block;
+  width: 220px;
+  height: 144px;
   resize: both;
-  padding: 20px;
+  padding: 16px;
   background: transparent;
+  font: inherit;
   font-size: 16px;
   cursor: text;
   border: 0;
