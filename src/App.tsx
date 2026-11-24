@@ -1,11 +1,12 @@
+import { Board } from './components/Board/Board';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>My Sticky Notes</h1>
-    </div>
-
-  )
+    <main className="app">
+      <div className="toolbar">
+          <h1>My Sticky Notes</h1>
+      </div>
+      <Board />
+    </main>
+  );
 }
-
-export default App

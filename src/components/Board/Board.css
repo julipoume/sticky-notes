@@ -1,0 +1,7 @@
+.board {
+  display: flex;
+  background: #fff;
+  min-height: 610px;
+  border: 1px solid #b6c7ee;
+  border-radius: 16px;
+}

@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: #f8f9fc;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 20px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+
+   h1 {
+    margin: 0;
+    font-size: 26px;
+  }
+}
