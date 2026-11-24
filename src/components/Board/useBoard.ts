@@ -24,7 +24,7 @@ export const useBoard = () => {
           width: 220,
           height: 180,
           text: '',
-          color: '#fff0b3',
+          color: 'yellow',
           zIndex,
         },
       ];

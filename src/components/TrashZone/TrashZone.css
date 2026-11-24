@@ -8,4 +8,5 @@
   background: white;
   color: #858c9c;
   font-size: 14px;
+  user-select: none;
 }

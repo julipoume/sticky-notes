@@ -1,6 +1,7 @@
 .board {
   display: flex;
   position: relative;
+  overflow: hidden;
   background: #fff;
   min-height: 610px;
   border: 1px solid #b6c7ee;

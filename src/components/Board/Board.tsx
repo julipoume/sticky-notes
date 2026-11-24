@@ -15,6 +15,9 @@ export const Board = () => {
           key={note.id}
           id={note.id}
           position={{ x: note.x, y: note.y }}
+          color={note.color}
+          zIndex={note.zIndex}
+          onColorChange={(color) => updateNote(note.id, { color })}
           trashRef={trashRef}
           onPositionChange={(changes) => updateNote(note.id, changes)}
           onDelete={() => removeNote(note.id)}

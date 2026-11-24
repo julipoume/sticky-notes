@@ -5,16 +5,18 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 22px rgba(40, 45, 65, 0.1);
+  user-select: none;
 }
 
 .note-header {
+  position: relative;
   height: 36px;
   display: flex;
   align-items: center;
   padding: 0 16px;
-  background: #d8ad45;
-  color: #4a3a12;
+  background: color-mix(in srgb, var(--note-color) 78%, #495057);
   font-weight: 700;
+  user-select: none;
 }
 
 .note-content {
@@ -30,4 +32,5 @@
   cursor: text;
   border: 0;
   outline: 0;
+  user-select: text;
 }
