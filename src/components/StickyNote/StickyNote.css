@@ -1,0 +1,30 @@
+.note {
+  position: absolute;
+  background: #fff0b3;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(40, 45, 65, 0.1);
+}
+
+.note-header {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background: #d8ad45;
+  color: #4a3a12;
+  font-weight: 700;
+}
+
+.note-content {
+  width: 180px;
+  height: 120px;
+  resize: both;
+  padding: 20px;
+  background: transparent;
+  font-size: 16px;
+  cursor: text;
+  border: 0;
+  outline: 0;
+}
